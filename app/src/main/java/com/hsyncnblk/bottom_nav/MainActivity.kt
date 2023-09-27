@@ -14,10 +14,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.bottomNavigation.setOnItemSelectedListener {
             when(it.itemId){
-                R.id.nav_main->replaceFragment(HomeFragment())
+                R.id.nav_home->replaceFragment(HomeFragment())
                 R.id.nav_favorite->replaceFragment(FavoriteFragment())
                 R.id.nav_person->replaceFragment(PersonFragment())
                 R.id.nav_settings->replaceFragment(SettingsFragment())
+
+                else->{
+
+                }
 
             }
             true
