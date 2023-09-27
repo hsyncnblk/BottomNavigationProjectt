@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">bottom_nav</string>
+
+
+    <string name="home_text">Home</string>
+    <string name="favorite_text">Favorite</string>
+    <string name="person_text">Person</string>
+    <string name="settings_text">Settings</string>
+
+
 </resources>
